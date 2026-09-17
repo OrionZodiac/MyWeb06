@@ -1,7 +1,7 @@
 // callback func
 
 function myfuncA(x, y, z) {
-  let data1 = x + y(20);
+  let data1 = x + y(20); // callback func
   z(`wooo,wow`); // callback func
   console.log(data1);
 }
